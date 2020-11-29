@@ -19,7 +19,7 @@
 						
 						{% for i in produkty %}
 							<tr>
-								<td>{{i.nazwa}}</td>
+								<td><a href="http://Djangoapp62200.scm.azurewebsites.net/produkt/{{i.id}}">{{i.nazwa}}</a></td>
 								<td>{{i.kategoria}}</td>
 								<td>{{i.cena}}</td>
 							</tr>

@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'konta',
-    'storages',
 ]
 
 MIDDLEWARE = [
@@ -78,10 +77,10 @@ WSGI_APPLICATION = 'crm1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'DJ', 
-        'USER': 'kacperus912@kacpert62200', 
-        'PASSWORD': 'Kochammatt912',
-        'HOST': 'kacpert62200.postgres.database.azure.com', 
+        'NAME': 'djangodatabase62200', 
+        'USER': 'kacperus912@kacpert62200dj', 
+        'PASSWORD': 'DjangoPassword62200',
+        'HOST': 'kacpert62200dj.postgres.database.azure.com', 
         'PORT': '5432',
     }
 }
