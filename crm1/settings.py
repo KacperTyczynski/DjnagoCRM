@@ -135,3 +135,4 @@ STATICFILES_DIRS = [
 #AZURE_ACCOUNT_KEY ="p+HGqleQAdvvgHvKTlKL2R5wtbryGswAbVyOVMwJStjVUSuGKnwdJxrx2feORbyWl2uhQb7zHuB7UXIJksolYQ=="
 #AZURE_CONTAINER = "djangoblob"
 #AZURE_SSL= True
+ALLOWED_HOSTS = ['https://djangoapp62200.azurewebsites.net']
