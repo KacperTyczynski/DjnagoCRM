@@ -25,7 +25,7 @@ SECRET_KEY = 'lsc!djbww4+(cw&n^i*+*hanh(=5sy*qb^zapt%_1!n#n$#vtv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://djangoapp62200.azurewebsites.net']
 
 
 # Application definition
@@ -135,4 +135,3 @@ STATICFILES_DIRS = [
 #AZURE_ACCOUNT_KEY ="p+HGqleQAdvvgHvKTlKL2R5wtbryGswAbVyOVMwJStjVUSuGKnwdJxrx2feORbyWl2uhQb7zHuB7UXIJksolYQ=="
 #AZURE_CONTAINER = "djangoblob"
 #AZURE_SSL= True
-ALLOWED_HOSTS = ['https://djangoapp62200.azurewebsites.net']
